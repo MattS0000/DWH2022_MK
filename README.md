@@ -1,2 +1,4 @@
-# DWH2022_MK
-Data Warehouse project for 2022L semester
+# Projekt Hurtowni Danych
+## Zespół Danonkowe Żółwie Ninja
+Kasia Solawa i Mateusz Sperkowski
+## Krótki opis bizesowy:
