@@ -29,7 +29,7 @@ GO
 
 CREATE TABLE [dbo].[OrdersFacts](
 	[order_date_id] [int] NOT NULL,
-	[order_product_id] [int] NOT NULL,
+	[order_product_id] [bigint] NOT NULL,
 	[order_id] [int] NOT NULL,
 	[user_id] [int] NOT NULL,
 	[order_number] [int] NOT NULL,
