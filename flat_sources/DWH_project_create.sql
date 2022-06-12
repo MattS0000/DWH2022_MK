@@ -37,7 +37,7 @@ CREATE TABLE [dbo].[OrdersFacts](
 	[order_date] [date] NOT NULL,
 	[product_id] [int] NOT NULL,
 	[add_to_cart_order] [int] NOT NULL,
-	[reordered] [int] NOT NULL,
+	[is_reordered] [int] NOT NULL,
 	[city_id] [int] NOT NULL,
  CONSTRAINT [PK_OrdersFacts] PRIMARY KEY CLUSTERED 
 (
