@@ -1,4 +1,6 @@
 --https://www.mssqltips.com/sqlservertip/4054/creating-a-date-dimension-or-calendar-table-in-sql-server/
+USE DWH_Project
+GO
 
 DECLARE @StartDate DATE = '19000101', @NumberOfYears INT = 200;
 
