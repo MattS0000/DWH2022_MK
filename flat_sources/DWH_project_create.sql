@@ -50,9 +50,7 @@ CREATE TABLE [dbo].[OrdersFacts](
 GO
 
 CREATE TABLE [dbo].[Products](
-	[department_id] [int] NOT NULL,
 	[product_id] [int] NOT NULL,
-	[aisle_id] [int] NOT NULL,
 	[aisle] [nvarchar](40) NOT NULL,
 	[department] [nvarchar](40) NOT NULL,
 	[product_name] [nvarchar](40) NOT NULL,
@@ -71,7 +69,7 @@ CREATE TABLE [dbo].[Users](
 	[last_name] [nvarchar](40) NOT NULL,
 	[first_name] [nvarchar](40) NOT NULL,
 	[email] [nvarchar](40) NOT NULL,
-	[age] [float] NOT NULL,
+	[age] [int] NOT NULL,
  CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED 
 (
 	[user_id] ASC
