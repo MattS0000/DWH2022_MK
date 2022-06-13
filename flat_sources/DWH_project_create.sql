@@ -64,11 +64,7 @@ GO
 
 CREATE TABLE [dbo].[Users](
 	[gender] [nvarchar](40) NOT NULL,
-	[phone] [nvarchar](40) NOT NULL,
 	[user_id] [int] NOT NULL,
-	[last_name] [nvarchar](40) NOT NULL,
-	[first_name] [nvarchar](40) NOT NULL,
-	[email] [nvarchar](40) NOT NULL,
 	[age] [int] NOT NULL,
  CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED 
 (
